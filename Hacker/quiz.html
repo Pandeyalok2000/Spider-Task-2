@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz Question-Paper</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="quiz">
+                <div class="quiz_header">
+                    <div class="quiz-user">
+                        <h3>Welcome!  <span class="name" style="color:brown"></span></h3>
+                    </div>
+                    <div class="quiz_timer">
+                        <span class="time"></span>
+                    </div>
+                </div>
+                <div class="quiz_body">
+                    <div id="questions">
+                        <!--<h3>Q1. Brass gets discoloured in air because of the presence of which of the following gases in air?</h3>
+                        <ul class="option_group">
+                            <li class="option">A. Oxygen</li>
+                            <li class="option">B. Hydrogen sulphide</li>
+                            <li class="option">C. Carbon dioxide</li>
+                            <li class="option">D. Nitrogen</li>
+                        </ul>-->
+                    </div>
+                        <img src="right.png" id = "right">
+                        <img src="wrong.png" id = "wrong">
+                        <button class="next" onclick="next()">Next Question</button>
+                        <button class="previous" onclick="previous()">Previous</button>
+                    </div>
+                    
+                </div>
+                <div class = "nav">
+                    <h3 style="color : white">Question Navigation !</h3>
+                    <button class="btn1" onclick="btn1()">1</button>
+                    <button class="btn2" onclick="btn2()">2</button>
+                    <button class="btn3" onclick="btn3()">3</button>
+                    <button class="btn4" onclick="btn4()">4</button>
+                    <button class="btn5" onclick="btn5()">5</button>
+                    <button class="btn6" onclick="btn6()">6</button>
+                    <button class="btn7" onclick="btn7()">7</button>
+                    <button class="btn8" onclick="btn8()">8</button>
+                    <button class="btn9" onclick="btn9()">9</button>
+                    <button class="btn10" onclick="btn10()">10</button>
+                </div>
+            </div>
+            
+        </div>
+        <script src="quiz.js"></script>
+        <script src="time.js"></script>
+    </body>
+</html>

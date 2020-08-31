@@ -1,0 +1,10 @@
+let name = sessionStorage.getItem("name");
+let points = sessionStorage.getItem("points");
+let question_count = sessionStorage.getItem("question_count");
+let highscore = localStorage.getItem("highscore")
+let time = sessionStorage.getItem("time");
+document.querySelector(".name").innerHTML = name;
+document.querySelector(".points").innerHTML = points;
+document.querySelector(".highscore").innerHTML= highscore;
+document.querySelector(".question_count").innerHTML = question_count;
+document.querySelector(".time").innerHTML = time;
